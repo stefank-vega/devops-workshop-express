@@ -11,7 +11,7 @@ mongoose.connect(MONGO_URL, { useNewUrlParser: true })
   .then(() => {
     const app = express();
 
-    app.get('/', (req, res) => res.send("Hello world!! v3"));
+    app.get('/', (req, res) => res.send("Hello world!! New changes."));
 
     app.listen(PORT, HOST);
 
